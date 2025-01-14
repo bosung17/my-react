@@ -1,5 +1,5 @@
-import "./index.css";
-import MemoListItem from "../MemoListItem";
+import './index.css'
+import MemoListItem from '../MemoListItem'
 
 function MemoList({ memos, setSelectedIndex, deleteMemo }) {
   return (
@@ -8,17 +8,17 @@ function MemoList({ memos, setSelectedIndex, deleteMemo }) {
         <MemoListItem
           key={index}
           onClickSelect={() => {
-            setSelectedIndex(index);
+            setSelectedIndex(index)
           }}
           memo={memo}
           onClickDelete={() => {
-            console.log("여긴 옴");
-            deleteMemo(index);
+            console.log('여긴 옴')
+            deleteMemo(index)
           }}
         ></MemoListItem>
       ))}
     </div>
-  );
+  )
 }
 
-export default MemoList;
+export default MemoList

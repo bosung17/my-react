@@ -1,12 +1,12 @@
-import "./SideBar.css";
+import './SideBar.css'
 
-import { MemoList, SideBarHeader, SideBarFooter } from "../../components";
+import { MemoList, SideBarHeader, SideBarFooter } from '../../components'
 function SideBar({
   memos,
   selectedIndex,
   setSelectedIndex,
   addMemo,
-  deleteMemo,
+  deleteMemo
 }) {
   return (
     <>
@@ -21,8 +21,8 @@ function SideBar({
         <SideBarFooter addMemo={addMemo}></SideBarFooter>
       </div>
     </>
-  );
+  )
 }
 
-export default SideBar;
+export default SideBar
 // 18줄

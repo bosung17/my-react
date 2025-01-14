@@ -1,4 +1,4 @@
-import "./index.css";
+import './index.css'
 
 function MemoList({ memo, onClickSelect, onClickDelete }) {
   return (
@@ -6,7 +6,7 @@ function MemoList({ memo, onClickSelect, onClickDelete }) {
       <div
         className="memoListItemTitle"
         onClick={() => {
-          onClickSelect();
+          onClickSelect()
         }}
       >
         {memo.title}
@@ -14,13 +14,13 @@ function MemoList({ memo, onClickSelect, onClickDelete }) {
       <button
         className="deleteButton"
         onClick={() => {
-          onClickDelete();
+          onClickDelete()
         }}
       >
         X
       </button>
     </div>
-  );
+  )
 }
 
-export default MemoList;
+export default MemoList
