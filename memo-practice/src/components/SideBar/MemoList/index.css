@@ -1,0 +1,21 @@
+.memoListItemTitle {
+    width: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.memoListItem {
+    display: flex;
+}
+
+.deleteButton {
+    border-radius: 1rem;
+    border: none;
+    color: aquamarine;
+}
+
+.deleteButton:hover {
+    color: black;
+}

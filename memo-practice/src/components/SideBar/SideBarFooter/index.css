@@ -1,0 +1,16 @@
+.sideBarFooter {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.addButton {
+    border-radius: 1rem;
+    border: none;
+    color: aquamarine;
+}
+
+.addButton:hover {
+    color: black;
+    cursor: pointer;
+}
