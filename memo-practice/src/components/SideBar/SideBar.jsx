@@ -1,6 +1,6 @@
 import './SideBar.css'
 
-import { MemoList, SideBarHeader, SideBarFooter } from '../../components'
+import { MemoList, SideBarFooter, SideBarHeader } from '../../components'
 function SideBar({
   memos,
   selectedIndex,

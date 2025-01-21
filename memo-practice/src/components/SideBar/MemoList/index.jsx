@@ -1,4 +1,5 @@
 import './index.css'
+
 import MemoListItem from '../MemoListItem'
 
 function MemoList({ memos, setSelectedIndex, deleteMemo }) {

@@ -1,7 +1,9 @@
 import './App.css'
-import SideBar from './components/SideBar/SideBar.jsx'
-import MemoContainer from './components/MemoContainer/MemoContainer.jsx'
+
 import { useEffect, useState } from 'react'
+
+import MemoContainer from './components/MemoContainer/MemoContainer.jsx'
+import SideBar from './components/SideBar/SideBar.jsx'
 
 function App() {
   const [selectedIndex, setSelectedIndex] = useState(0)
