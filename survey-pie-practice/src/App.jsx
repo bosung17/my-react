@@ -1,6 +1,7 @@
-import QuestionBox from './components/QuestionBox'
-import ProgressIndicator from './components/ProgressIndicator'
 import { useState } from 'react'
+
+import ProgressIndicator from './components/ProgressIndicator'
+import QuestionBox from './components/QuestionBox'
 
 function App() {
   const [questions, setQuestions] = useState([
